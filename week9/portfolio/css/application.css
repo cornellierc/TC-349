@@ -1,0 +1,167 @@
+@import url(components/_normalize.css);
+/* line 1, ../sass/components/_base.scss */
+body {
+  align: center;
+}
+
+/* line 5, ../sass/components/_base.scss */
+.cornellier-home {
+  text-align: center;
+}
+
+/* line 9, ../sass/components/_base.scss */
+.pic {
+  height: 225px;
+  width: 20%;
+  padding-top: 1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* line 18, ../sass/components/_base.scss */
+#christine {
+  background: #C9B2D0;
+  padding: 2em 4em 2em 4em;
+  padding-top: 10px;
+}
+
+/* line 29, ../sass/components/_base.scss */
+.lead {
+  text-shadow: rgba(0, 0, 255, 0.2) 1px 1px 0, rgba(0, 0, 255, 0.2) 2px 2px 0, rgba(0, 0, 255, 0.2) 3px 3px 0;
+}
+
+/* line 3, ../sass/components/_addinfo.scss */
+#add-info {
+  background: #B8AFBF;
+  padding: 2em 4em 4em 4em;
+}
+
+/* line 9, ../sass/components/_addinfo.scss */
+#resume {
+  height: 180px;
+  width: 30%;
+}
+
+/* line 14, ../sass/components/_addinfo.scss */
+.button {
+  background-color: #4F2E5A;
+  color: #fff;
+  padding: 1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition-property: width;
+  -moz-transition-property: width;
+  -o-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 3s;
+  -moz-transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s;
+}
+
+/* line 24, ../sass/components/_addinfo.scss */
+.button:hover {
+  width: 150px;
+  color: #CFB9E6;
+}
+
+/* line 29, ../sass/components/_addinfo.scss */
+.button-container {
+  padding: 8em 5em 5em 5em;
+}
+
+/* line 33, ../sass/components/_addinfo.scss */
+.text-container {
+  align: center;
+}
+
+/* line 1, ../sass/components/_mediagrid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #846f8d;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/components/_mediagrid.scss */
+.media-grid li {
+  background: #482955;
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+
+/* line 15, ../sass/components/_mediagrid.scss */
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+
+/* line 19, ../sass/components/_mediagrid.scss */
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+/*flip*/
+/* line 26, ../sass/components/_mediagrid.scss */
+.m-g {
+  list-style-type: none;
+  background: #482955;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../sass/components/_mediagrid.scss */
+.m-g li {
+  background: #846f8d;
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+
+/* line 40, ../sass/components/_mediagrid.scss */
+.m-g li:nth-child(even) {
+  background: #482955;
+}
+
+/* line 44, ../sass/components/_mediagrid.scss */
+.m-g.m-g-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+/* line 1, ../sass/components/_callout.scss */
+#call-out {
+  background: #4F2E5A;
+  padding: 23em 4em 4em 4em;
+}
+
+/* line 7, ../sass/components/_callout.scss */
+#LIT-in {
+  background: #C9B2D0;
+  padding: 2em 4em;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 16, ../sass/components/_callout.scss */
+#LIT {
+  height: 215px;
+  width: 21%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
