@@ -1,0 +1,49 @@
+body {
+  align: center;
+}
+
+.cornellier-home {
+  text-align: center;
+}
+
+.pic{
+  height: 225px;
+  width: 20%;
+  padding-top: 1em;
+  @include border-radius(5px);
+  @include border-top-radius(5px);
+}
+
+//prevents distorted img's
+//img {
+//max-width: 100%
+//}
+
+//.pic li{
+//float: left;
+//width: 25%;
+//margin: 0;
+//padding: 0;
+//display:block;
+//}
+
+#christine {
+  background: #C9B2D0;
+  padding: 2em 4em 2em 4em;
+  padding-top: 10px;
+
+}
+
+h1{
+  font-size: 40px;
+}
+
+
+$default-text-shadow-color: rgba(red, 0.6);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
+
+.lead{
+  @include text-shadow(rgba(blue, 0.2) 1px 1px 0, rgba(blue, 0.2) 2px 2px 0, rgba(blue, 0.2) 3px 3px 0);
+
+}
