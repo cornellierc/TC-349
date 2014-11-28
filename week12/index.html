@@ -21,51 +21,54 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+$( document ).ready(function() {
 
-$('#green-box')
-[<div id=​"green-box">​</div>​]
-$('#green-box').css('background-color','lightskyblue')
-[<div id=​"green-box" style=​"background-color:​ rgb(135, 206, 250)​;​">​</div>​]
-$('#green-box').css('border-color','steelblue')
-[<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ rgb(135, 206, 250)​;​">​</div>​]
-$('#green-box').css('background-color','transparent')
-[<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ transparent;​">​</div>​]
-$('#green-box').html('<img src="http://i.imgur.com/8NArGWZ.gif" />')
-[<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ transparent;​">​…​</div>​]
-$('#green-box').append('<img src="http://i.imgur.com/8NArGWZ.gif" />')
-[<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ transparent;​">​…​</div>​]
-$('#my-div')
-[<div id=​"my-div">​</div>​]
-$('#my-div').append('<img src="http://i.imgur.com/90Mmdcm.png">')
-[<div id=​"my-div">​…​</div>​<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​</div>​]
-$('#my-div img').hover( function() {
-    this.src = 'http://i.imgur.com/nTj3Fxx.gif'
-}, function() {
-    this.src = 'http://i.imgur.com/90Mmdcm.png'
-})
-[<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
-$('#my-div img').mousedown( function() {
-    this.src = 'http://i.imgur.com/Rfj0a80.png'
-})
-[<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
-$('#my-div img').mousedown(function() {
-    $('#my-div').append(
-    '<img class="demo-hadouken" src="http://i.imgur.com/oTyQRvX.gif">'
-    );
-})
-[<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
-$('#my-div img').mousedown(function() {
-    $('.demo-hadouken').animate( {
-        "margin-left": "600px"
-    }, 1000, 'swing', function() {
-        this.remove();
-    })
-})
-[<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​, <img class=​"demo-hadouken" src=​"http:​/​/​i.imgur.com/​oTyQRvX.gif">​]
-$('#my-div img').mouseup(function() {
-    this.src = 'http://i.imgur.com/90Mmdcm.png'
-})
-[<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
+  $('#green-box')
+  [<div id=​"green-box">​</div>​]
+  $('#green-box').css('background-color','lightskyblue')
+  [<div id=​"green-box" style=​"background-color:​ rgb(135, 206, 250)​;​">​</div>​]
+  $('#green-box').css('border-color','steelblue')
+  [<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ rgb(135, 206, 250)​;​">​</div>​]
+  $('#green-box').css('background-color','transparent')
+  [<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ transparent;​">​</div>​]
+  $('#green-box').html('<img src="http://i.imgur.com/8NArGWZ.gif" />')
+  [<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ transparent;​">​…​</div>​]
+  $('#green-box').append('<img src="http://i.imgur.com/8NArGWZ.gif" />')
+  [<div id=​"green-box" style=​"border-color:​ rgb(70, 130, 180)​;​ background-color:​ transparent;​">​…​</div>​]
+  $('#my-div')
+  [<div id=​"my-div">​</div>​]
+  $('#my-div').append('<img src="http://i.imgur.com/90Mmdcm.png">')
+  [<div id=​"my-div">​…​</div>​<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​</div>​]
+  $('#my-div img').hover( function() {
+      this.src = 'http://i.imgur.com/nTj3Fxx.gif'
+  }, function() {
+      this.src = 'http://i.imgur.com/90Mmdcm.png'
+  })
+  [<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
+  $('#my-div img').mousedown( function() {
+      this.src = 'http://i.imgur.com/Rfj0a80.png'
+  })
+  [<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
+  $('#my-div img').mousedown(function() {
+      $('#my-div').append(
+      '<img class="demo-hadouken" src="http://i.imgur.com/oTyQRvX.gif">'
+      );
+  })
+  [<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
+  $('#my-div img').mousedown(function() {
+      $('.demo-hadouken').animate( {
+          "margin-left": "600px"
+      }, 1000, 'swing', function() {
+          this.remove();
+      })
+  })
+  [<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​, <img class=​"demo-hadouken" src=​"http:​/​/​i.imgur.com/​oTyQRvX.gif">​]
+  $('#my-div img').mouseup(function() {
+      this.src = 'http://i.imgur.com/90Mmdcm.png'
+  })
+  [<img src=​"http:​/​/​i.imgur.com/​90Mmdcm.png">​]
+
+});
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
