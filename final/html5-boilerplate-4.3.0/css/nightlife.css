@@ -1,0 +1,71 @@
+h1, h2, h3 {
+  text-align: center;
+}
+
+
+h1{
+  font-size: 60px;
+  font-family: Noteworthy;
+}
+
+h3 {
+  text-align: center;
+  font-family: Noteworthy;
+}
+
+.list-group-item {
+  padding-left: 16em;
+  font-family: Noteworthy;
+  color: black;
+}
+
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 1285px;
+  max-width: 100%;
+}
+
+img.bars{
+  height:200px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.nightlife{
+  margin-top: 4em;
+}
+
+.bar_specials li {
+  display: inline-block;
+  margin: 2em;
+}
+
+.bar_specials p{
+  font-size:20px;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   padding-bottom:90px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:130px;   /* Height of the footer */
+   background:#B8AFBF;
+}

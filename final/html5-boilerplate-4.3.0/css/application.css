@@ -1,0 +1,632 @@
+/* line 1, ../sass/components/_oncampus.scss */
+.campus_title {
+  font-size: 40px;
+  font-family: Noteworthy;
+  text-align: center;
+}
+
+/* line 7, ../sass/components/_oncampus.scss */
+h3 {
+  text-align: center;
+  font-family: Noteworthy;
+}
+
+/* line 12, ../sass/components/_oncampus.scss */
+.list-group-item {
+  padding-left: 16em;
+  font-family: Noteworthy;
+  color: black;
+}
+
+/* line 19, ../sass/components/_oncampus.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 25, ../sass/components/_oncampus.scss */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 29, ../sass/components/_oncampus.scss */
+#header {
+  background: #B8AFBF;
+  padding: 12px;
+}
+
+/* line 33, ../sass/components/_oncampus.scss */
+#body {
+  padding: 10px;
+  padding-bottom: 165px;
+  /* Height of the footer */
+}
+
+/* line 37, ../sass/components/_oncampus.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  /* Height of the footer */
+  background: #B8AFBF;
+}
+
+/* line 46, ../sass/components/_oncampus.scss */
+#campus-pic {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+/* line 56, ../sass/components/_oncampus.scss */
+div.transbox p {
+  margin: 30px 40px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Noteworthy;
+  color: #000000;
+  padding-right: 4em;
+}
+
+/* line 66, ../sass/components/_oncampus.scss */
+div.transbox {
+  width: 1160px;
+  height: 625px;
+  margin: 30px 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/* line 2, ../sass/components/_nightlife.scss */
+.night_title {
+  font-size: 50px;
+  font-family: Noteworthy;
+  text-align: center;
+  padding-right: 2em;
+}
+
+/* line 9, ../sass/components/_nightlife.scss */
+h3 {
+  text-align: center;
+  font-family: Noteworthy;
+}
+
+/* line 14, ../sass/components/_nightlife.scss */
+.list-group-item {
+  padding-left: 16em;
+  font-family: Noteworthy;
+  color: black;
+}
+
+/* line 21, ../sass/components/_nightlife.scss */
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 1240px;
+  max-width: 100%;
+  padding-top: 1.3em;
+}
+
+/* line 31, ../sass/components/_nightlife.scss */
+img.bars {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  padding-left: 7.5em;
+}
+
+/* line 38, ../sass/components/_nightlife.scss */
+img.bars_right {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  padding-left: 4em;
+}
+
+/* line 45, ../sass/components/_nightlife.scss */
+img.bars_harp {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  padding-left: 4.5em;
+}
+
+/* line 52, ../sass/components/_nightlife.scss */
+img.bars_dublin {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  padding-left: 5.5em;
+}
+
+/* line 59, ../sass/components/_nightlife.scss */
+img.bars_crunchys {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  padding-left: 6em;
+}
+
+/* line 66, ../sass/components/_nightlife.scss */
+.nightlife {
+  margin-top: 4em;
+}
+
+/* line 70, ../sass/components/_nightlife.scss */
+.bar_specials li {
+  display: inline-block;
+  margin: 3.8em;
+}
+
+/* line 75, ../sass/components/_nightlife.scss */
+.bar_specials p {
+  font-size: 15px;
+  text-align: center;
+}
+
+/* line 82, ../sass/components/_nightlife.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 87, ../sass/components/_nightlife.scss */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 92, ../sass/components/_nightlife.scss */
+#body_night {
+  padding-bottom: 90px;
+  /* Height of the footer */
+}
+
+/* line 95, ../sass/components/_nightlife.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  /* Height of the footer */
+  background: #B8AFBF;
+}
+
+/* line 2, ../sass/components/_lansing.scss */
+.lansing_title {
+  font-size: 50px;
+  font-family: Noteworthy;
+  text-align: center;
+}
+
+/* line 8, ../sass/components/_lansing.scss */
+.sub_head {
+  font-family: Noteworthy;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* line 14, ../sass/components/_lansing.scss */
+h3 {
+  font-family: Noteworthy;
+  text-align: center;
+}
+
+/* line 19, ../sass/components/_lansing.scss */
+.list-group-item {
+  padding-left: 16em;
+  font-family: Noteworthy;
+  color: black;
+}
+
+/* line 25, ../sass/components/_lansing.scss */
+.lansing_activities {
+  text-align: center;
+}
+
+/* line 29, ../sass/components/_lansing.scss */
+.lansing_activities p {
+  font-family: Noteworthy;
+  font-size: 15px;
+  text-align: center;
+  padding-right: 3.5em;
+}
+
+/* line 36, ../sass/components/_lansing.scss */
+img.LMI {
+  height: 250px;
+  width: 350px;
+  max-width: 100%;
+  padding-bottom: .8em;
+}
+
+/* line 43, ../sass/components/_lansing.scss */
+#column-center {
+  display: inline-block;
+  width: 33%;
+}
+
+/* line 48, ../sass/components/_lansing.scss */
+#column-left {
+  float: left;
+  width: 33%;
+}
+
+/* line 53, ../sass/components/_lansing.scss */
+#column-right {
+  float: right;
+  width: 33%;
+}
+
+/* line 60, ../sass/components/_lansing.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 65, ../sass/components/_lansing.scss */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 69, ../sass/components/_lansing.scss */
+#header {
+  background: #B8AFBF;
+  padding: 14px;
+}
+
+/* line 73, ../sass/components/_lansing.scss */
+#body {
+  padding: 10px;
+  padding-bottom: 160px;
+  /* Height of the footer */
+}
+
+/* line 77, ../sass/components/_lansing.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  /* Height of the footer */
+  background: #B8AFBF;
+}
+
+/* line 1, ../sass/components/_bucketlist.scss */
+h3 {
+  text-align: center;
+  font-family: Noteworthy;
+}
+
+/* line 6, ../sass/components/_bucketlist.scss */
+.ub_title {
+  text-align: left;
+  padding-left: 2em;
+  font-size: 35px;
+  font-family: Noteworthy;
+}
+
+/* line 13, ../sass/components/_bucketlist.scss */
+.share_title {
+  text-align: right;
+  padding-right: 10em;
+  font-size: 25px;
+  font-family: Noteworthy;
+  padding-top: .8em;
+}
+
+/* line 21, ../sass/components/_bucketlist.scss */
+p {
+  text-align: left;
+  padding-left: 5em;
+  font-size: 20px;
+  font-family: Noteworthy;
+}
+
+/* line 28, ../sass/components/_bucketlist.scss */
+#share {
+  text-align: center;
+  padding-right: 5em;
+  font-size: 17px;
+  font-family: Noteworthy;
+}
+
+/* line 35, ../sass/components/_bucketlist.scss */
+#share-ub {
+  text-align: left;
+  padding-right: 5em;
+  font-size: 17px;
+  font-family: Noteworthy;
+}
+
+/* line 42, ../sass/components/_bucketlist.scss */
+#comment {
+  text-align: center;
+  padding-left: .5em;
+  padding-bottom: 1em;
+  font-size: 15px;
+  font-family: Noteworthy;
+}
+
+/* line 50, ../sass/components/_bucketlist.scss */
+img.box {
+  width: 25px;
+  height: 25px;
+  padding-right: .7em;
+  max-width: 100%;
+}
+
+/* line 57, ../sass/components/_bucketlist.scss */
+img.box:hover {
+  background: #B8AFBF;
+  padding-right: 0em;
+}
+
+/* line 62, ../sass/components/_bucketlist.scss */
+img.horizontal {
+  height: 250px;
+  width: 350px;
+  padding: 1em;
+  padding-bottom: .2em;
+  padding-left: 9em;
+  max-width: 100%;
+}
+
+/* line 71, ../sass/components/_bucketlist.scss */
+img.vertical {
+  height: 350px;
+  width: 250px;
+  padding: 1em;
+  padding-bottom: .5em;
+  padding-left: 12em;
+  padding-top: 1em;
+  max-width: 100%;
+}
+
+/* line 81, ../sass/components/_bucketlist.scss */
+.column-left {
+  float: left;
+  width: 50%;
+}
+
+/* line 85, ../sass/components/_bucketlist.scss */
+.column-right {
+  float: right;
+  width: 50%;
+}
+
+/* line 91, ../sass/components/_bucketlist.scss */
+.list-group-item {
+  padding-left: 16em;
+  font-family: Noteworthy;
+  color: black;
+}
+
+/* line 98, ../sass/components/_bucketlist.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 103, ../sass/components/_bucketlist.scss */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 107, ../sass/components/_bucketlist.scss */
+#header {
+  background: #B8AFBF;
+  padding: 14px;
+}
+
+/* line 111, ../sass/components/_bucketlist.scss */
+#body_bu {
+  padding: 10px;
+  padding-bottom: 1090px;
+}
+
+/* line 115, ../sass/components/_bucketlist.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  background: #B8AFBF;
+}
+
+/* line 2, ../sass/components/_index.scss */
+.lead {
+  padding-bottom: .5em;
+  font-family: Noteworthy;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 2em;
+}
+
+/* line 10, ../sass/components/_index.scss */
+.main_title {
+  font-size: 70px;
+  font-family: Noteworthy;
+  text-align: center;
+  padding-left: 1em;
+}
+
+/* line 18, ../sass/components/_index.scss */
+h3 {
+  text-align: center;
+  font-family: Noteworthy;
+}
+
+/* line 23, ../sass/components/_index.scss */
+.list-group-item {
+  padding-left: 16em;
+  font-family: Noteworthy;
+  color: black;
+}
+
+/* line 30, ../sass/components/_index.scss */
+.photo-grid-vertical {
+  margin: auto;
+  max-width: 1106px;
+  text-align: center;
+}
+
+/* line 36, ../sass/components/_index.scss */
+.photo-grid-vertical li {
+  border: 5px solid white;
+  display: inline-block;
+}
+
+/* line 41, ../sass/components/_index.scss */
+.photo-grid-vertical img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 47, ../sass/components/_index.scss */
+.photo-grid-vertical figure {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 53, ../sass/components/_index.scss */
+.photo-grid-vertical figcaption {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+/* line 66, ../sass/components/_index.scss */
+.photo-grid-vertical figcaption p {
+  display: table-cell;
+  font-size: 1.3em;
+  position: relative;
+  vertical-align: middle;
+  width: 300px;
+  height: 406px;
+}
+
+/* line 75, ../sass/components/_index.scss */
+.photo-grid-vertical li:hover figcaption {
+  opacity: 1;
+}
+
+/* line 79, ../sass/components/_index.scss */
+.photo-grid-horizontal {
+  margin: auto;
+  max-width: 1106px;
+  text-align: center;
+}
+
+/* line 85, ../sass/components/_index.scss */
+.photo-grid-horizontal li {
+  border: 5px solid white;
+  display: inline-block;
+}
+
+/* line 90, ../sass/components/_index.scss */
+.photo-grid-horizontal img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 4em;
+}
+
+/* line 97, ../sass/components/_index.scss */
+.photo-grid-horizontal figure {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 103, ../sass/components/_index.scss */
+.photo-grid-horizontal figcaption {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+/* line 116, ../sass/components/_index.scss */
+.photo-grid-horizontal figcaption p {
+  display: table-cell;
+  font-size: 1.5em;
+  vertical-align: middle;
+  width: 400px;
+  height: 270px;
+}
+
+/* line 124, ../sass/components/_index.scss */
+.photo-grid-horizontal li:hover figcaption {
+  opacity: 1;
+}
+
+/* line 129, ../sass/components/_index.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 134, ../sass/components/_index.scss */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 138, ../sass/components/_index.scss */
+#header {
+  background: #B8AFBF;
+  padding: 14px;
+}
+
+/* line 142, ../sass/components/_index.scss */
+#body {
+  padding: 10px;
+  padding-bottom: 170px;
+  /* Height of the footer */
+}
+
+/* line 146, ../sass/components/_index.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  /* Height of the footer */
+  background: #B8AFBF;
+}
